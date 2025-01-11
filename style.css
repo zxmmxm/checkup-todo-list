@@ -1,0 +1,109 @@
+/* Основные стили */
+body  {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header, footer {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+main {
+    padding: 20px;
+}
+form {
+    background-color:  transparent;
+    padding: 20px
+    border-radius: 5px
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border: 1px solid #ccc;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+/* Медиазапрос для планшетов и мобильных устройств */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    form {
+        padding: 15px;
+    }
+    label, input, button {
+        font-size: 14px;
+    }
+    input {
+        padding: 8px
+    }
+    button {
+        width: 100%;
+        padding: 12px
+    }
+}
+/* Медиазапрос для мобильных устройств */
+@media (max-width: 480px) {
+.container {
+    width: 95%;
+}
+h1 {
+    font-size: 20px;
+}
+form {
+    padding: 10px;
+}
+input, button {
+    padding: 8px;
+}
+}
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838; 
+}
